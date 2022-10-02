@@ -44,7 +44,7 @@ export default function ThemeToggle() {
           return (
             <button
               key={t}
-              className={`${checked ? 'bg-white' : ''} cursor-pointer rounded-3xl p-2`}
+              className={`${checked ? 'bg-white text-black' : ''} cursor-pointer rounded-3xl p-2`}
               onClick={toggleTheme}
               aria-label="Toggle theme"
             >
